@@ -12,6 +12,13 @@ This is a project created to illustrate the basics of web scraping by pulling in
 ## Automated scraping commands
 The following are used to start the scheduled scraping with Celery in `tasks.py`.
 
+
+## First, cd inner folder then using pipenv, install module and activate.
+
+````
+pipenv install requests bs4 lxml django celery
+````
+
 Starting our RabbitMQ server (terminal #1):
 ```
 rabbitmq-server
